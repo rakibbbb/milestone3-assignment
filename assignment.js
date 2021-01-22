@@ -7,7 +7,7 @@ function kilometerToMeter(distance){
         return meter;
     }
     else{
-        return "-----Distance can not be negative-----";
+        return "-----Invalid Parameter Input-----";
     }
     
 }
@@ -21,21 +21,21 @@ function budgetCalculator(watchQty, mobileQty, laptopQty){
         var watchPrice = 50 * watchQty;
     }
     else{
-        return "----Quantity can not be negative----";
+        return "----Invalid Quantity----";
     }
 
     if(mobileQty > 0){
         var mobilePrice = 100 * mobileQty;
     }
     else{
-        return "----Quantity can not be negative----";
+        return "----Invalid Quantity----";
     }
     
     if(laptopQty > 0){
         var laptopPrice = 500 * laptopQty;
     }
     else{
-        return "----Quantity can not be negative----";
+        return "----Invalid Quantity----";
     }
     
     var total = watchPrice + mobilePrice + laptopPrice;
@@ -69,7 +69,7 @@ function hotelCost(days){
         }
     }
     else{
-        return "-----------Days can not be negative----------";
+        return "-----------Invalid Parameter----------";
     }
 }
 /*var cost = hotelCost(43);
