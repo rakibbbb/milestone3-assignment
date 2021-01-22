@@ -7,7 +7,7 @@ function kilometerToMeter(distance){
         return meter;
     }
     else{
-        return "-----Invalid Parameter Input-----";
+        return "-----Distance can not be negative-----";
     }
     
 }
@@ -21,21 +21,21 @@ function budgetCalculator(watchQty, mobileQty, laptopQty){
         var watchPrice = 50 * watchQty;
     }
     else{
-        return "----Invalid Quantity----";
+        return "----Quantity can not be negative----";
     }
 
     if(mobileQty > 0){
         var mobilePrice = 100 * mobileQty;
     }
     else{
-        return "----Invalid Quantity----";
+        return "----Quantity can not be negative----";
     }
     
     if(laptopQty > 0){
         var laptopPrice = 500 * laptopQty;
     }
     else{
-        return "----Invalid Quantity----";
+        return "----Quantity can not be negative----";
     }
     
     var total = watchPrice + mobilePrice + laptopPrice;
@@ -69,7 +69,7 @@ function hotelCost(days){
         }
     }
     else{
-        return "-----------Invalid Parameter----------";
+        return "-----------Days can not be negative----------";
     }
 }
 /*var cost = hotelCost(43);
@@ -86,6 +86,6 @@ function megaFriend(name){
     }
     return largeName;
 }
-/*var friendsNameList = ["Ema", "Nishy", "Mamun", "Sayem", "jyoti", "Firoj", "Mim", "jaima"];
+/*var friendsNameList = ["Ema", "Nishy", "Mamun", "Sayem", "jyoti", "Firoj", "Mim", "Zawad"];
 var result = megaFriend(friendsNameList);
 console.log(result);*/
