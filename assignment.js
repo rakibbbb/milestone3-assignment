@@ -7,7 +7,7 @@ function kilometerToMeter(distance){
         return meter;
     }
     else{
-        return "-----Invalid Parameter Input-----"
+        return "-----Invalid Parameter Input-----";
     }
     
 }
@@ -21,21 +21,21 @@ function budgetCalculator(watchQty, mobileQty, laptopQty){
         var watchPrice = 50 * watchQty;
     }
     else{
-        return "----Invalid Quantity----"
+        return "----Invalid Quantity----";
     }
 
     if(mobileQty > 0){
         var mobilePrice = 100 * mobileQty;
     }
     else{
-        return "----Invalid Quantity----"
+        return "----Invalid Quantity----";
     }
     
     if(laptopQty > 0){
         var laptopPrice = 500 * laptopQty;
     }
     else{
-        return "----Invalid Quantity----"
+        return "----Invalid Quantity----";
     }
     
     var total = watchPrice + mobilePrice + laptopPrice;
